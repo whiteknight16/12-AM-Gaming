@@ -1,51 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+body {
+    overflow-x: hidden !important;
 }
 
-.navbar{
-    width:100vw;
+.navbar {
+    width: 100%;
 }
 
-body{
+body {
     background-color: #21335E;
 }
-nav{
+
+nav {
     background-color: #3E497A;
 }
+
 .nav-link {
-    color:whitesmoke !important;
+    color: whitesmoke !important;
 }
 
 
-#contents{
+#contents {
     min-height: min-content;
     width: 100vw;
     height: 100vh;
 
 }
 
-.text{
+.text {
     position: relative;
     font-family: Gloock;
 }
-.text h1{
+
+.text h1 {
     position: relative;
 
     font-family: poppins;
     font-size: 6rem;
 
-    top:15vh;
-    left:4vw;
+    top: 15vh;
+    left: 4vw;
 
     color: #f0f0f0;
 }
-.text h2{
+
+.text h2 {
     position: relative;
 
     font-family: poppins;
@@ -53,19 +56,19 @@ nav{
 
     color: #f1d00a;
 
-    top:16vh;
-    left:4vw;
+    top: 16vh;
+    left: 4vw;
 }
 
-.image img{
+.image img {
     position: relative;
-    width:20vw ;
-    height:65vh;
+    width: 15vw;
+    height: 65vh;
 
-    
 
-    left:70vw;
-    bottom:10vh;
+
+    left: 70vw;
+    bottom: 10vh;
 
     transform: rotate(5deg);
 
@@ -81,13 +84,13 @@ nav{
     font-family: gloock;
 
     position: relative;
-    top:2vh;
+    top: 2vh;
 
     color: #f0f0f0;
 
 }
 
-#games h1{
+#games h1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,70 +99,75 @@ nav{
     font-size: 4.5rem;
 }
 
-.card{
-    background-color:#3E497A;
-    margin-bottom:8%;
+.card {
+    background-color: #3E497A;
+    margin-bottom: 8%;
 }
 
-.row{
+.row {
     padding-top: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#3E497A;
+    background-color: #3E497A;
     height: 3vw;
-    width: 100vw;
-    min-height: fit-content;
+    width: 100%;
+    color: #f0f0f0;
+
 }
 
-@media only screen and (max-width: 768px){
 
-    .text h1{
+
+@media only screen and (max-width: 768px) {
+
+    .text h1 {
         position: relative;
-    
+
         font-family: poppins;
         font-size: 4rem;
-    
-        top:15vh;
-        left:4vw;
-    
+
+        top: 15vh;
+        left: 4vw;
+
         color: #f0f0f0;
     }
-    .text h2{
+
+    .text h2 {
         position: relative;
-    
+
         font-family: poppins;
         font-size: 1rem;
-    
+
         color: #f1d00a;
-    
-        top:16vh;
-        left:4vw;
+
+        top: 16vh;
+        left: 4vw;
     }
-    
-    #games h1{
+
+    #games h1 {
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
         margin-top: 2%;
         font-size: 4.5rem;
     }
-    .card{
+
+    .card {
         margin-right: 2%;
-        
+
     }
-    
+
 }
 
-@media only screen and (max-width: 450px){
-    .image img{
+@media only screen and (max-width: 450px) {
+    .image img {
         visibility: hidden;
     }
 }
